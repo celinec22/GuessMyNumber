@@ -10,7 +10,7 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
+- [Usage](#how-to-play)
 
 
 ## Features
@@ -34,3 +34,16 @@ To run this project locally, you need a web browser.
    ```bash
    git clone https://github.com/celinec22/GuessMyNumber.git
 2. Navigate to Project Directory 
+
+## How to Play
+1. Enter a number between 1 and 20 in the input field.
+2. Click the "Check!" button to submit your guess.
+### Feedback
+* No Number: If the input field is empty.
+* Too High!: If the guess is higher than the correct number.
+* Too Low!: If the guess is lower than the correct number.
+* Correct!: If the guess matches the correct number.
+The background color changes to green when the correct number is guessed.
+### Scoring
+The score decreases by 1 for each incorrect guess.
+The high score is updated if the current score exceeds the previous high score.
