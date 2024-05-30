@@ -4,6 +4,8 @@
 
 "Guess My Number" is a simple and fun guessing game where the player tries to guess a randomly generated number between 1 and 20. The game provides feedback to guide the player whether their guess is too high or too low. The objective is to guess the correct number with the least number of attempts.
 
+![Image](/images/GuessMyNumberScreen.png)
+
 ## Table of Contents
 
 - [Features](#features)
